@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRIE Visualization</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>TRIE Visualization</h2>
+        <input type="text" id="wordInput" placeholder="Enter a word">
+        <button onclick="insertWord()">Insert Word</button>
+        <br>
+        <input type="text" id="searchInput" placeholder="Search word">
+        <button onclick="searchWord()">Check Word</button>
+        <br>
+        <input type="text" id="prefixInput" placeholder="Prefix search">
+        <button onclick="searchPrefix()">Find Words</button>
+        <br>
+        <button onclick="getAllWords()">Get All Words</button>
+        <br>
+        <h3>TRIE Structure:</h3>
+        <div id="trieContainer" class="trie-container"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
