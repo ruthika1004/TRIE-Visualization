@@ -11,7 +11,7 @@ This project provides an interactive visualization of the TRIE data structure. U
 -> Responsive and easy-to-use interface.
 
 🌐 Demo
-Live Demo -> 
+Live Demo -> https://ruthika1004.github.io/TRIE-Visualization/
 
 🛠 Technologies Used
 -> HTML - For structuring the page.
